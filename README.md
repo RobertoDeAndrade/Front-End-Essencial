@@ -1,2 +1,2 @@
-# Residencia-FrontEnd-Essencial
-Códigos da matéria de FrontEnd Essencial do Serratec
+# Front-End-Essencial
+Códigos da matéria de Front-End Essencial do Serratec

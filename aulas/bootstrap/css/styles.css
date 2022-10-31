@@ -1,0 +1,99 @@
+.btn-success {
+    background-color: aquamarine;
+}
+
+/* xs - Extra Small < 576px */
+.breakpoints {
+    color: brown;
+}
+
+/* sm - Small - >= 576px */
+@media(min-width: 576px)  {
+    .breakpoints {
+        color: purple
+    }
+}
+
+/* md - Medium - >= 768px */
+@media(min-width: 768px)  {
+    .breakpoints {
+        color: yellow
+    }
+}
+
+/* lg - Large - >= 992px */
+@media(min-width: 992px)  {
+    .breakpoints {
+        color: red
+    }
+}
+
+/* xl - Extra Large - ≥1200px */
+@media(min-width: 1200px) {
+    .breakpoints {
+        color: cadetblue;
+    }
+}
+
+/* xxl - Extra Extra Large - ≥1400px */
+@media(min-width: 1400px) {
+    .breakpoints {
+        color: black;
+    }
+}
+
+h2 {
+    text-align: center;
+}
+
+.container1 {
+    height: 50px;
+    background-color: azure;
+}
+
+.container2 {
+    height: 50px;
+    background-color: bisque;
+}
+
+.grid-container {
+    border: 2px solid black;
+    padding: 8px;
+}
+
+.grid-row {
+    border: 2px solid red;
+    height: 100px;
+    margin: 0;
+    padding: 8px;
+}
+
+.col, .col-12, .col-8, .col-6,
+.col-5, .col-4, .col-3 {
+    border: 2px solid purple;
+}
+
+.alinhamento {
+    margin-bottom: 10px;
+}
+
+.alinhamento .row {
+    height: 300px;
+    border: 2px solid purple;
+}
+
+.alinhamento .col-4 {
+    height: 100px;
+    border: 2px solid red;
+}
+
+.bi-apple{
+    font-size: 100px;
+    color: red;
+}
+
+.bi-basket{
+    font-size: 50px;
+    color: blue;
+    margin-left: 50px;
+}

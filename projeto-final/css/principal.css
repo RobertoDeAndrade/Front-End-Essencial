@@ -1,0 +1,44 @@
+h1 {
+    font-size: 75px;
+}
+
+.container {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+figcaption{
+    font-size: 10px;
+    text-align: center;
+}
+
+.container-textos{
+   font-size: 50px;
+   padding-top: 3%;
+}
+
+.imagemUm{
+    width: 400px;
+    height: 300px;
+}
+
+.imagemDois{
+    width: 400px;
+    height: 300px;
+}
+
+.imagemTres{
+    width: 400px;
+    height: 310px;
+    padding-top: 0%;
+}
+
+.titulo-principal{
+    text-decoration: none;
+    color: var(--cor-primaria);
+}
+
+.titulo-principal:hover{
+    color: var(--cor-primaria);
+}

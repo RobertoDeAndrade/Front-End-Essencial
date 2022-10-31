@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- JS BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous" defer></script>
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="./css/forms.css">
+    
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Formulários</h1>
+
+    <form action="cadastro.php" method="POST">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" placeholder="Insira seu nome" value="" />
+        <br />
+        <br />
+        <label for="nascimento">Data de Nascimento</label>
+        <input type="date" name="nascimento" id="nascimento">
+        <br />
+        <br />
+        <label for="receberEmail">Receber E-mail?</label>
+        <input type="checkbox" name="receberEmail" id="receberEmail">
+        <br />
+        <br />
+        <label for="email1">E-mail:</label>
+        <input type="email" name="email1" id="email1" placeholder="Insira seu e-mail">
+        <br />
+        <br />
+        <label for="senha1">Senha:</label>
+        <input type="password" name="senha1" id="senha1" placeholder="Insira sua senha">
+        <br />
+        <br />
+        <label for="sexo">Sexo:</label>
+        <br />
+        <input type="radio" name="sexo" id="sexo" value="Masculino"> Masculino
+        <br />
+        <input type="radio" name="sexo" id="sexo" value="Feminino"> Feminino
+        <br />
+        <input type="radio" name="sexo" id="sexo" value="Outro"> Outro
+        <br />
+        <br />
+        <input type="submit" value="ENVIAR">
+    </form>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <div class="col-4 bs-form">
+        <h2>FORMULÁRIO BOOTSTRAP</h2>
+        <form >
+            <div class="mb-4 mt-4">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" required/>
+            </div>
+            <div class="mb-4 mt-4">
+                <label for="senha" class="form-label">Senha:</label>
+                <input type="password" class="form-control" id="senha" name="senha" required/>
+            </div>
+
+            <button type="button" class="btn btn-success" onclick="login()">Entrar</button>
+        </form>
+
+        <!-- <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" onclick="switchTheme()">
+            <label class="form-check-label" for="flexSwitchCheckDefault">Switch Theme</label>
+        </div> -->
+    </div>
+</body>
+</html>

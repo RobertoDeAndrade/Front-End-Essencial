@@ -1,0 +1,31 @@
+.container flex{
+    max-width: 100%;
+	margin: 0 auto;
+	
+}
+.flex {
+	display: flex;
+}
+.d-block{
+    max-height: 10%;
+    max-width: 40%;
+    margin: auto;
+}
+
+.texto{
+    margin: auto;
+}
+.carousel-control-prev{
+    position: flex;
+    left: 20%;
+    max-width: 50px;
+    max-height: 100%;
+    margin: 0;
+}
+.carousel-control-next{
+    position: flex;
+    right: 20%;
+    max-width: 50px;
+    max-height: 100%;
+    margin: 0;
+}
